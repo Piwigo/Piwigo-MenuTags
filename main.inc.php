@@ -6,6 +6,7 @@ Description: Display unrelated tags in menu
 Plugin URI: auto
 Author: plg
 Author URI: http://le-gall.net/pierrick
+Has Settings: false
 */
 
 global $conf;
@@ -19,6 +20,7 @@ add_event_handler('init', 'mt_init');
 function mt_init()
 {
   global $conf, $user;
+  $conf['menubar_tag_cloud_content'] = 'current_only';
 
   load_language('plugin.lang', MT_PATH);
 }
