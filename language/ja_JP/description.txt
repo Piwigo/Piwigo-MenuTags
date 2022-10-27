@@ -1,1 +1,1 @@
-Display unrelated tags in menu
+メニュー内に関連性のないタグを表示する
